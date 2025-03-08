@@ -1,10 +1,13 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "https://afomi.github.io/citycamp-template" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "CityCamp" # the name of your site, e.g. ACME Corp.
+
+baseurl: "https://afomi.github.io/citycamp-template" # when deploying to GitHub pages
+# baseurl: "" # when developing locally
 
 # CityCamp specific variables go here
 city_camp_host_city: "Idealville"
 city_camp_organizer_email: "example-organizer@citycamp.com"
+city_camp_dark_color: "gray-900" # choose a tailwind color, and set it in .template-colors as well (near the top of index.html)
 
 plugins:
   - jekyll-postcss

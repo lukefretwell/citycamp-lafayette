@@ -1,9 +1,16 @@
 ---
 layout: default
-title: "CityCamp Template"
+title: "Home"
 ---
 
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-{{site.city_camp_dark_color}}">
+
+  <!-- ALSO ADD YOUR TEMPLATE COLORS HERE, SO TAILWIND WILL BUILD THE STYLES. -->
+  <div class="template-colors hidden">
+    <span class="text-gray-900"></span>
+    <span class="hover:text-gray-900"></span>
+    <span class="bg-gray-900"></span>
+  </div>
 
   <header class="bg-white">
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -12,15 +19,15 @@ title: "CityCamp Template"
           <span class="font-bold">CityCamp {{site.city_camp_host_city}}</span>
         </a>
       </div>
-      <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Join Slack</a>
-        <a href="#" class="text-sm/6 font-semibold text-gray-900">Register</a>
+      <div class="hidden lg:flex lg:gap-x-12 text-{{site.city_camp_dark_color}}">
+        <a href="#" class="text-sm/6 font-semibold">Join Slack</a>
+        <a href="#" class="text-sm/6 font-semibold">Register</a>
         <a
           href="https://citycamp.com/about"
-          class="text-sm/6 font-semibold text-gray-900">About CityCamp</a>
+          class="text-sm/6 font-semibold">About CityCamp</a>
       </div>
       <div
-        class="hidden lg:flex lg:flex-1 gap-x-4 lg:justify-end text-gray-900">
+        class="hidden lg:flex lg:flex-1 gap-x-4 lg:justify-end text-{{site.city_camp_dark_color}}">
         <a href="https://github.com/afomi/citycamp-template" class="hover:text-gray-800">
           <span class="sr-only">GitHub</span>
           <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -59,10 +66,10 @@ title: "CityCamp Template"
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+        <h2 class="mt-2 text-5xl font-semibold tracking-tight text-{{site.city_camp_dark_color}} sm:text-7xl">
           CityCamp {{site.city_camp_host_city}}
         </h2>
-        <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+        <p class="mt-8 text-pretty text-lg font-medium text-{{site.city_camp_dark_color}} text-opacity-70 sm:text-xl/8">
           A tagline or lead about why CityCamp is awesome and a notable benefit for the people in your city.
         </p>
       </div>
@@ -83,7 +90,7 @@ title: "CityCamp Template"
         </div>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <a href="#"
-            class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Add to your calendar</a>
+            class="rounded-md bg-{{site.city_camp_dark_color}} px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Add to your calendar</a>
         </div>
       </div>
     </div>
@@ -127,7 +134,7 @@ title: "CityCamp Template"
           Join CityCamp Slack
         </a>
         <a href="https://join.slack.com/t/citycamp-team/shared_invite/zt-3195dem6d-hTE148iWet4k9r3903TaZg"
-          class="rounded-md bg-gray-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          class="rounded-md bg-{{site.city_camp_dark_color}} px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
           Contact the organizer
         </a>
       </div>
