@@ -7,7 +7,7 @@ Deploy a [CityCamp](https://citycamp.com) website easily.
 * Ensure Ruby 3.3+ is installed.
 * Ensure Node is installed.
 
-1. clone the https://github.com/afomi/citycamp-template repository
+1. clone the https://github.com/CityCamp/citycamp-website-template repository
 1. run `bundle install` to install the Ruby dependencies
 1. run `npm i` to install the Node dependencies
 1. run `jekyll serve` to start a web server at http://localhost:4000
@@ -15,7 +15,7 @@ Deploy a [CityCamp](https://citycamp.com) website easily.
 
 ### Deploy the template to GitHub Pages using GitHub Actions
 
-1. fork the https://github.com/afomi/citycamp-template repository
+1. fork the https://github.com/CityCamp/citycamp-website-template repository
 1. update configs in `_config.yml`
 1. Set the GitHub repo - `Settings > Pages` and set the "Source" to "GitHub Actions"
 
