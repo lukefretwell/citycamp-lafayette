@@ -1,8 +1,8 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://citycamp-website-template.citycamp.com # the base hostname & protocol for your site, e.g. http://example.com
 title: "CityCamp" # the name of your site, e.g. ACME Corp.
 
-baseurl: "https://citycamp.github.io/citycamp-website-template" # when deploying to GitHub pages
-# baseurl: "" # when developing locally
+# baseurl: "https://citycamp-website-template.citycamp.com" # when deploying to GitHub pages
+baseurl: "" # when developing locally
 
 # CityCamp specific variables go here
 city_camp_host_city: "Idealville"
