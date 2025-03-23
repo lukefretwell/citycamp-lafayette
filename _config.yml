@@ -4,14 +4,6 @@ title: "CityCamp" # the name of your site, e.g. ACME Corp.
 # baseurl: "https://citycamp-website-template.citycamp.com" # when deploying to GitHub pages
 baseurl: "" # when developing locally
 
-# CityCamp specific variables go here
-city_camp_host_city: "Idealville"
-city_camp_organizer_email: "example-organizer@citycamp.com"
-city_camp_dark_color: "gray-900" # choose a tailwind color, and set it in .template-colors as well (near the top of index.html)
-
-# Display partners (sponsors) component or not
-display_partners: true # true | false
-
 plugins:
   - jekyll-postcss
 
@@ -23,3 +15,18 @@ exclude:
   - package-lock.json
   - postcss.config.js
   - tailwind.config.js
+
+
+# CityCamp specific variables go below #########################################
+
+city_camp_host_city: "Idealville"
+city_camp_organizer_email: "example-organizer@citycamp.com"
+city_camp_dark_color: "gray-900" # choose a tailwind color, and set it in .template-colors as well (near the top of index.html)
+
+# Display partners (sponsors) component or not
+display_partners: true # true | false
+partners:
+  - name: "this"
+    image_url: "https://citycamp.com/assets/img/posts/default-og.png"
+  - name: "that"
+    image_url: "https://citycamp.com/assets/img/posts/default-og.png"
