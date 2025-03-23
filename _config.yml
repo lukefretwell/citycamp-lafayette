@@ -9,6 +9,9 @@ city_camp_host_city: "Idealville"
 city_camp_organizer_email: "example-organizer@citycamp.com"
 city_camp_dark_color: "gray-900" # choose a tailwind color, and set it in .template-colors as well (near the top of index.html)
 
+# Display partners (sponsors) component or not
+display_partners: true # true | false
+
 plugins:
   - jekyll-postcss
 
