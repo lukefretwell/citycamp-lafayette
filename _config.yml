@@ -1,4 +1,4 @@
-url: https://citycamp-website-template.citycamp.com # the base hostname & protocol for your site, e.g. http://example.com
+url: https://lukefretwell.github.io/citycamp-lafayette # the base hostname & protocol for your site, e.g. http://example.com
 title: "CityCamp" # the name of your site, e.g. ACME Corp.
 
 # baseurl: "https://citycamp-website-template.citycamp.com" # when deploying to GitHub pages
